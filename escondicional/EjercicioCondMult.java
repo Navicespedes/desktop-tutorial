@@ -32,7 +32,7 @@ public void proyector() {
             case 4: objx.proyector(); break;
 
 
-            default:System.out.println("Opcion no existe"); break;
+            default:System.out.println("Opcion no es"); break;
         }
 
 
