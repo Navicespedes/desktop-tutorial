@@ -10,7 +10,7 @@ public class Ejercicio{
 
     }
 
-    public static Void Ejercicio(){ 
+    public static Void pregunta2IICZ(){ 
         System.out.println("Ingrese el operador");
          char operador=lt.next().charAt(0);
         switch (operador) {
