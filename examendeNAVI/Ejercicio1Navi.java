@@ -1,7 +1,7 @@
-package examendeIVAN;
+package examendeNAVI;
 import java.util.Scanner;
 
-public class Ejercicio1navi {
+public class Ejercicio1Navi {
     public static void main(String[] args) {
 
         double ec, ep, tp, promedio;

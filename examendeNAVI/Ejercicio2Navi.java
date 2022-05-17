@@ -1,7 +1,7 @@
-package examendeIVAN;
+package examendeNAVI;
 import java.util.Scanner;
 
-public class Ejercicio2navi {
+public class Ejercicio2Navi {
     public static void main(String[] args) {
         double precio, descuento, igv, total, pf;
         Scanner lt=new Scanner(System.in);

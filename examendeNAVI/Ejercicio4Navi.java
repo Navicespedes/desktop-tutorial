@@ -1,7 +1,7 @@
-package examendeIVAN;
+package examendeNAVI;
 import java.util.Scanner;
 
-public class Ejercicio4navi {
+public class Ejercicio4Navi {
 
     public static void main(String[] args) {
         double año;
