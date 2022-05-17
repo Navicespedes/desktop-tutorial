@@ -1,7 +1,7 @@
 package examendeIVAN;
 import java.util.Scanner;
 
-public class EJercicio5 {
+public class Ejercicio5navi {
     static Scanner lt=new Scanner(System.in);
     public static void Ejercicio1FJQR() {
         double ec, ep, tp, promedio;
