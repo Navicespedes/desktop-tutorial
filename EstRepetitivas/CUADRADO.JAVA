@@ -1,9 +1,10 @@
 package EstRepetitivas;
 
+
 import java.math.BigInteger;
 import java.util.Scanner;
 
-public class Ejercicio410navi {
+public class CUADRADO {
     
     static Scanner leerT=new Scanner(System.in);
 
@@ -20,7 +21,7 @@ public class Ejercicio410navi {
         System.out.println("El factorial de "+n+" es:"+result);
     }
 
-    public static long factorialNum(int n) {        
+    public static long factorialNum(int n) {       
         long result=1;
         if(n>1){
         for (int i = 1; i <=n; i++) {
@@ -29,27 +30,42 @@ public class Ejercicio410navi {
         }       
         return result;
     }    
+
     public static BigInteger factorialNumBig(int n) {        
         BigInteger result=new BigInteger("1");
         if(n>1){
         for (int i = 1; i <=n; i++) {
             result=result.multiply(new BigInteger(String.valueOf(i))); 
-
             }
         }       
         return result;
     }    
 
-
+    public static void funcionExponencial(int x) {
+        double result=0;
+        for (int i = 0; i < x; i++) {
+            result=result+(Math.pow(x, i)/factorialNum(i));
+        }
+        System.out.println("Funcion Exponencia es: "+result);
+    }
 
     public static void main(String[] args) {
-       /* factorialXnum();
+        /*factorialXnum();
         long resultado=factorialNum(5);
-        System.out.println("Resultado:"+resultado);*/
-        System.out.println("Ingrese el numero:");
+        System.out.println("Resultado:"+resultado);*/        
+        /*System.out.println("Ingrese un numero:");
         int numero=leerT.nextInt();
-        for (int i = 1; i <=numero; i++){
-            System.out.println("Factorial de "+i+"! es ="+factorialNumBig(i));
-        }
+        for (int i = 1; i <= numero; i++) {
+            System.out.println("Factorial de "+i+"! =" + factorialNumBig(i));
+        }*/
+
+        funcionExponencial(5);
+
     }
+
+ 
+
+
 }
+
+   
