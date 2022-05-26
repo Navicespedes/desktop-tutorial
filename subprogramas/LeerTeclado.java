@@ -7,9 +7,13 @@ public class LeerTeclado {
 
     
     public int print(String mensaje, int valor) {
-        System.out.println(mensaje+ "+");
-        
-        return 0;
+        System.out.println(mensaje+":");
+        try {
+        valor=Integer.parseInt(br.neadLine());
+    }  catch (Exception e) {
+        System.out.println("El valor que ingreso es incorrecto");
+    }
+        return valor;
 
     }
     public String print(String mensaje, String valor) {
